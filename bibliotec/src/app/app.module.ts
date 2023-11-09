@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -13,6 +12,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { NavComponent } from './components/template/nav/nav.component';
 import {MatListModule} from '@angular/material/list';
+import { HomeComponent } from './components/template/home/home.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -22,7 +23,8 @@ import {MatListModule} from '@angular/material/list';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
