@@ -14,7 +14,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './components/template/home/home.component';
 import {MatCardModule} from '@angular/material/card';
-
+import { CategoryReadComponent } from './components/views/category/category-read/category-read.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -24,7 +25,8 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    CategoryReadComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
