@@ -15,7 +15,9 @@ import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './components/template/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { CategoryReadComponent } from './components/views/category/category-read/category-read.component';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 
@@ -39,7 +41,8 @@ import {MatTableModule} from '@angular/material/table';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
